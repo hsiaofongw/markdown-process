@@ -1,0 +1,25 @@
+{
+  "name": "markdown-process",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "rehype-stringify": "^9.0.1",
+    "remark-gfm": "^2.0.0",
+    "remark-parse": "^10.0.0",
+    "remark-rehype": "^9.0.0",
+    "unified": "^10.1.0",
+    "unified-stream": "^2.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^16.7.10"
+  }
+}
